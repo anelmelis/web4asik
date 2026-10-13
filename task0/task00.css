@@ -11,7 +11,7 @@
 
 .navbar a {
     text-decoration: none;
-    color: #253858;
+    color: #42519d;
     font-size: 18px;
 }
 
@@ -25,18 +25,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: azure;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f5f3ff;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .contact-container {
     width: 100%;
-    max-width: 440px;
+    max-width: 450px;
     padding: 35px;
-    margin: 20px;
+    margin: 100px 20px 30px;
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
 }
 
 h1 {
@@ -84,11 +84,10 @@ textarea:focus {
 }
 
 button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
     width: 100%;
     padding: 13px;
-    background-color: #6f94ea;
+    background-color: #1f178e;
     color: rgb(255, 248, 248);
     border: none;
     border-radius: 6px;
@@ -99,5 +98,5 @@ button {
 }
 
 button:hover {
-    background-color: #390c65;
+    background-color: #611aa8;
 }
